@@ -2,29 +2,24 @@
 Theme name: Origin
 Original Author: CryptoCoderz aka Jonathan Dan Zaretsky
 Current Author: CryptoCoderz aka Jonathan Dan Zaretsky
-Version: 1.4
+Version: 1.5
 Created: 7/21/2014, 21:19:11 PM GMT-7:00 DST
-Last change: 10/06/2022, 6:53:21 PM GMT-7:00 DST
+Last change: 11/03/2022, 3:52:09 PM GMT-7:00 DST
 -------------- */
 body {
   background-color: #3e1c34;
   z-index: 1;
 
-  /* ------------- HALLOWEEN 2022 EVENT ------------*/
-  /* 
-     Big thank you goes to Fehrenbach Baptiste for making
-     the very cute/fun CSS pumpkin and releasing it open-source
-     through codepen (Will be removed after Halloween 2022)
-  */
+  /* ------------- CSS CAT IN CLOUD 2022 ------------*/
 
   /* Colors */
   --border-light: #2E2943;
-  --border-pumpkin: #B2502E;
-  --border: #160A36;
-  --pumpkin-light: #EA9F5C;
-  --pumpkin-lighter: #E8BB6C;
-  --pumpkin-inside: #492839;
-  --pumpkin: #D4713D;
+  --border-cloud: #B2502E;
+  --border: #202030;
+  --cloud-light: #EA9F5C;
+  --cloud-lighter: #E8BB6C;
+  --cloud-inside: #492839;
+  --cloud: #cccccc;
   --cat-light: #7F6668;
   --cat: #5C4A56;
     --ear: #E89C93;
@@ -32,238 +27,75 @@ body {
   --leaf: #9C383D;
 }
 
-/* Pumpkin */
-.pumpkin {
+/* cloud */
+.cloud {
   position: absolute;
   margin: 100px 185px;
   transform: scale(0.4);
 }
-.pumpkin *, .pumpkin *:before, .pumpkin *:after {
+.cloud *, .cloud *:before, .cloud *:after {
   content: "";
   position: absolute;
 }
-.pumpkin .part-1 {
+.cloud .part-1 {
   top: -100px;
   left: -200px;
   width: 150px;
-  height: 200px;
-  background-color: var(--pumpkin);
+  height: 180px;
+  background-color: var(--cloud);
   border: 8px solid var(--border);
-  border-radius: 50% / 60%;
+  border-radius: 90% / 90%;
 }
-.pumpkin .part-2 {
+.cloud .part-2 {
   top: -90px;
-  left: -150px;
-  width: 160px;
-  height: 220px;
-  background-color: var(--pumpkin);
-  border-radius: 60% / 50%;
-}
-.pumpkin .part-2:before {
-  width: 160px;
-    height: 240px;
-    border-radius: 50%;
-    border: 6px solid transparent;
-    border-left-color: var(--border-pumpkin);
-    left: 2px;
-    top: -21px;
-}
-.pumpkin .part-2:after {
-    width: 60px;
-    height: 220px;
-    border-radius: 50%;
-    border: 6px solid transparent;
-    border-left-color: var(--border-pumpkin);
-    left: 95px;
-    top: -6px;
-}
-.pumpkin .part-3 {
-  top: -90px;
-  left: -80px;
-  width: 160px;
-  height: 220px;
-  background-color: var(--pumpkin);
-  border-radius: 60% / 50%;
-}
-.pumpkin .part-3:before {
-    width: 90px;
-    height: 225px;
-    border-radius: 50%;
-    border: 6px solid transparent;
-    border-right-color: var(--border-pumpkin);
-    right: 20px;
-    top: -11px;
-}
-.pumpkin .part-4 {
-  top: -100px;
-  left: -40px;
-  width: 150px;
+  left: -120px;
+  width: 180px;
   height: 200px;
-  background-color: var(--pumpkin);
-  border: 8px solid var(--border);
-  border-radius: 50% / 60%;
+  background-color: var(--cloud);
+  border-radius: 80% / 80%;
 }
-.pumpkin .part-4:before {
+
+.cloud .part-4:before {
     z-index: 1;
-    width: 112px;
+    width: 120px;
     height: 70px;
     border-radius: 50%;
     border: 8px solid transparent;
     border-bottom-color: var(--border);
-    top: 140px;
-    left: -108px;
+    top: 120px;
+    left: -84px;
     transform: rotate(7deg);
 }
-.pumpkin .part-4:after {
+
+.cloud .part-4 {
+  top: -100px;
+  left: -30px;
+  width: 150px;
+  height: 180px;
+  background-color: var(--cloud);
+  border: 8px solid var(--border);
+  border-radius: 80% / 80%;
+}
+
+.cloud .part-4:after {
     z-index: 1;
-    width: 114px;
+    width: 120px;
     height: 60px;
     border-radius: 50%;
     border: 8px solid transparent;
     border-bottom-color: var(--border);
-    top: 149px;
-    left: -26px;
-    transform: rotate(-7deg);
-}
-.pumpkin .mouth-shadow {
-  height: 72px;
-    width: 134px;
-    border-radius: 50%;
-    border: solid transparent;
-    border-width: 0 15px 42px;
-    border-bottom-color: var(--border);
-    top: -18px;
-    left: -117px;
-}
-.pumpkin .mouth-shadow:before {
-        width: 41px;
-    height: 31px;
-    border-radius: 50%;
-    background-color: var(--border);
-    top: 65px;
-    left: -11px;
-    transform: rotate(20deg) skewX(27deg);
-}
-.pumpkin .mouth-shadow:after {
-    width: 41px;
-    height: 31px;
-    border-radius: 50%;
-    background-color: var(--border);
-    top: 64px;
-    left: 103px;
-    transform: rotate(-60deg) skewX(18deg);
-}
-.pumpkin .mouth {
-  height: 60px;
-  width: 120px;
-  border-radius: 50%;
-  border: solid transparent;
-  border-width: 0 15px 30px;
-  border-bottom-color: var(--pumpkin-inside);
-  left: -110px;
-}
-.pumpkin .mouth:before {
-    width: 29px;
-    height: 21px;
-    border-radius: 50%;
-    background-color: var(--pumpkin-inside);
-    top: 51px;
-    left: -11px;
-    transform: rotate(20deg) skewX(16deg);
-}
-.pumpkin .mouth:after {
-    width: 29px;
-    height: 21px;
-    border-radius: 50%;
-    background-color: var(--pumpkin-inside);
-    top: 51px;
-    left: 102px;
-    transform: rotate(-53deg) skewX(16deg);
-}
-.pumpkin .teeth:before {
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background-color: var(--pumpkin);
-    border: 6px solid transparent;
-    border-color: transparent transparent var(--border) var(--border);
-    transform: rotate(-37deg);
-    top: 37px;
-    left: -84px;
-}
-.pumpkin .teeth:after {
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background-color: var(--pumpkin);
-    border: 6px solid transparent;
-    border-color: transparent transparent var(--border) var(--border);
-    transform: rotate(-51deg);
-    top: 38px;
-    left: -18px;
-}
-.pumpkin .eye {
-    width: 0;
-    height: 0;
-    border: solid transparent;
-    border-width: 20px 0 20px 35px;
-    border-left-color: var(--pumpkin-inside);
-    transform: rotate(25deg);
-    top: -10px;
-}
-.pumpkin .eye.left {
-    left: -100px;
-    transform: rotate(35deg);
-}
-.pumpkin .eye:before {
-    width: 6px;
-    height: 38px;
-    background-color: var(--pumpkin-lighter);
-    left: -37px;
-    top: -19px;
-}
-.pumpkin .eye .border {
-    width: 43px;
-    height: 4px;
-    border-radius: 50%;
-    border: 6px solid transparent;
-    border-bottom-color: var(--border);
-    top: -1px;
-    left: -48px;
-    transform: rotate(-31deg);
-}
-.pumpkin .eye .border:before {
-    width: 40px;
-    height: 4px;
-    border-radius: 50%;
-    border: 6px solid transparent;
-    border-bottom-color: var(--border);
-    top: -18px;
-    left: -13px;
-    transform: rotate(123deg);
-}
-.pumpkin .eye .border:after {
-    width: 40px;
-    height: 4px;
-    border-radius: 50%;
-    border: 6px solid transparent;
-    border-bottom-color: var(--border);
-    top: -18px;
-    left: 4px;
-    transform: rotate(238deg);
-}
-.pumpkin .eye.nose {
-    transform: rotate(30deg) scale(0.6);
-    top: 15px;
-    left: -50px;
+    top: 129px;
+    left: -65px;
+    transform: rotate(-11deg);
 }
 
+
 /* Cat */
-.pumpkin .cat {
+.cloud .cat {
     top: -230px;
     left: -150px;
 }
-.pumpkin .head {
+.cloud .head {
     height: 160px;
     width: 180px;
     border-radius: 50%;
@@ -272,10 +104,10 @@ body {
     transform: rotate(20deg) skewX(-6deg);
     overflow: hidden;
 }
-.pumpkin .head * {
+.cloud .head * {
     transform: skewX(6deg) rotate(-20deg);
 }
-.pumpkin .head:before {
+.cloud .head:before {
     width: 120%;
     height: 100%;
     border-radius: 50%;
@@ -283,7 +115,7 @@ body {
     top: -20px;
     left: -50px;
 }
-.pumpkin .cat-eye {
+.cloud .cat-eye {
     height: 30px;
     width: 25px;
     border-radius: 50%;
@@ -294,7 +126,7 @@ body {
     box-shadow: -80px 0 var(--border);
     animation: 7s blink 1s linear infinite;
 }
-.pumpkin .cat-mouth {
+.cloud .cat-mouth {
     height: 8px;
     width: 8px;
     border-radius: 50%;
@@ -304,7 +136,7 @@ body {
     box-shadow: -10px 12px var(--border), 10px 12px var(--border);
     transform: skewX(6deg) rotate(-16deg);
 }
-.pumpkin .cat-mouth:before {
+.cloud .cat-mouth:before {
     height: 13px;
     width: 3px;
     border-radius: 50%;
@@ -314,7 +146,7 @@ body {
     top: -7px;
     transform: rotate(40deg) skewX(-2deg);
 }
-.pumpkin .cat-mouth:after {
+.cloud .cat-mouth:after {
     height: 13px;
     width: 3px;
     border-radius: 50%;
@@ -324,7 +156,7 @@ body {
     top: -7px;
     transform: rotate(-40deg) skewX(-2deg);
 }
-.pumpkin .ear {
+.cloud .ear {
     height: 0;
     width: 0;
     border: solid transparent;
@@ -334,7 +166,7 @@ body {
     left: 29px;
     transform: rotate(-1deg);
 }
-.pumpkin .ear:before {
+.cloud .ear:before {
     height: 0;
     width: 0;
     border: solid transparent;
@@ -343,7 +175,7 @@ body {
     left: -42px;
     top: -16px;
 }
-.pumpkin .ear:after {
+.cloud .ear:after {
     height: 0;
     width: 0;
     border: solid transparent;
@@ -352,7 +184,7 @@ body {
     left: -38px;
     top: -9px;
 }
-.pumpkin .ear .border:before {
+.cloud .ear .border:before {
     height: 49px;
     width: 5px;
     border-radius: 50%;
@@ -361,7 +193,7 @@ body {
     left: -58px;
     top: -36px;
 }
-.pumpkin .ear .border:after {
+.cloud .ear .border:after {
     height: 53px;
     width: 5px;
     border-radius: 50%;
@@ -371,19 +203,19 @@ body {
     top: -47px;
     transform: rotate(-63deg);
 }
-.pumpkin .ear.right {
+.cloud .ear.right {
     left: 140px;
     top: 1px;
     transform: rotate(64deg);
 }
-.pumpkin .neck {
+.cloud .neck {
     width: 110px;
     height: 18px;
     background-color: var(--cat);
     top: 150px;
     left: 40px;
 }
-.pumpkin .neck:before {
+.cloud .neck:before {
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -393,7 +225,7 @@ body {
     left: 80px;
     top: -15px;
 }
-.pumpkin .neck:after {
+.cloud .neck:after {
     height: 40px;
     width: 20px;
     border-radius: 50%;
@@ -403,7 +235,7 @@ body {
     top: -16px;
     left: 115px;
 }
-.pumpkin .pattoune {
+.cloud .pattoune {
     height: 30px;
     width: 20px;
     border-radius: 0 0 50% 50%;
@@ -415,7 +247,7 @@ body {
     transform: rotate(30deg);
     overflow: hidden;
 }
-.pumpkin .pattoune:before {
+.cloud .pattoune:before {
     height: 22px;
     width: 19px;
     border-radius: 50%;
@@ -423,7 +255,7 @@ body {
     left: -3px;
     top: 0px;
 }
-.pumpkin .pattoune:after {
+.cloud .pattoune:after {
     width: 6px;
     height: 13px;
     border-radius: 4px 4px 0 0;
@@ -433,11 +265,11 @@ body {
     transform: rotate(-5deg);
     box-shadow: 7px 0 var(--border);
 }
-.pumpkin .pattoune.right {
+.cloud .pattoune.right {
     top: 170px;
     left: 80px;
 }
-.pumpkin .pattoune-top {
+.cloud .pattoune-top {
     height: 20px;
     width: 25px;
     background-color: var(--cat);
@@ -445,11 +277,11 @@ body {
     left: 30px;
     transform: rotate(28deg);
 }
-.pumpkin .pattoune-top.right {
+.cloud .pattoune-top.right {
     left: 100px;
     top: 160px;
 }
-.pumpkin .pattoune-top:before {
+.cloud .pattoune-top:before {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -459,10 +291,10 @@ body {
     left: -6px;
     transform: rotate(5deg);
 }
-.pumpkin .pattoune-top.right:before {
+.cloud .pattoune-top.right:before {
     left: -9px;
 }
-.pumpkin .pattoune-top:after {
+.cloud .pattoune-top:after {
     height: 8px;
     width: 15px;
     border-radius: 0 4px 4px 0;
@@ -471,11 +303,11 @@ body {
     top: -5px;
     left: 2px;
 }
-.pumpkin .pattoune-top.right:after {
+.cloud .pattoune-top.right:after {
     top: -6px;
     left: 0;
 }
-.pumpkin .pattoune-bottom {
+.cloud .pattoune-bottom {
     width: 30px;
     height: 8px;
     background-color: var(--border);
@@ -483,7 +315,7 @@ body {
     left: 62px;
     transform: rotate(5deg);
 }
-.pumpkin .pattoune-bottom:before {
+.cloud .pattoune-bottom:before {
     height: 15px;
     width: 15px;
     border-radius: 50%;
@@ -492,7 +324,7 @@ body {
     transform: rotate(57deg);
     left: -17px;
 }
-.pumpkin .pattoune-bottom-right {
+.cloud .pattoune-bottom-right {
     height: 40px;
     width: 20px;
     border-radius: 50%;
@@ -502,7 +334,7 @@ body {
     left: 117px;
     transform: rotate(54deg);
 }
-.pumpkin .pattoune-bottom-right:before {
+.cloud .pattoune-bottom-right:before {
     height: 60px;
     width: 20px;
     border-radius: 50%;
@@ -512,7 +344,7 @@ body {
     top: -43px;
     left: 4px;
 }
-.pumpkin .pattoune-bottom-right:after {
+.cloud .pattoune-bottom-right:after {
     height: 30px;
     width: 20px;
     border-radius: 50%;
@@ -521,7 +353,7 @@ body {
     left: 26px;
     top: -69px;
 }
-.pumpkin .cat .dots {
+.cloud .cat .dots {
     height: 8px;
     width: 8px;
     border-radius: 50%;
@@ -531,166 +363,6 @@ body {
     box-shadow:
         23px -17px var(--border),
         -22px -32px var(--border);
-}
-
-/* Leaf */
-.pumpkin .leaf {
-    height: 8px;
-    width: 8px;
-    border-radius: 50%;
-    background-color: var(--border);
-    top: 103px;
-    left: -185px;
-    transform: rotate(55deg);
-}
-.pumpkin .leaf.right {
-    left: 107px;
-    top: 92px;
-    transform: rotateZ(-180deg) rotateX(-180deg) rotate(62deg);
-}
-.pumpkin .leaf:before {
-    width: 20px;
-    height: 3px;
-    border-radius: 50%;
-    border: 8px solid transparent;
-    border-bottom-color: var(--border);
-    top: -14px;
-    left: -5px;
-    transform: rotate(-25deg);
-}
-.pumpkin .leaf .bg {
-    height: 60px;
-    width: 20px;
-    background-color: var(--leaf-light);
-    transform: rotate(53deg);
-    top: -51px;
-    left: 45px;
-}
-.pumpkin .leaf .p1 {
-    height: 25px;
-    width: 18px;
-    background-color: var(--leaf-light);
-    border: solid;
-    border-radius: 50% 50% 0 0;
-    border-color: var(--border) transparent transparent var(--border);
-    border-width: 8px 0 0 8px;
-    top: -42px; /* Yey */
-    left: 20px;
-    transform: rotate(-30deg) skewX(-29deg);
-}
-.pumpkin .leaf .p2 {
-    height: 30px;
-    width: 24px;
-    background-color: var(--leaf-light);
-    border-radius: 50%;
-    top: -48px;
-    left: 42px; /* Yey */
-    transform: rotate(-36deg) skewX(-29deg);
-}
-.pumpkin .leaf .p2:before {
-    width: 7px;
-    height: 17px;
-    background-color: var(--border);
-    transform: skewX(29deg) rotate(46deg);
-    top: -2px;
-}
-.pumpkin .leaf .p2:after {
-    width: 13px;
-    height: 13px;
-    border-radius: 50%;
-    border: 8px solid transparent;
-    border-color: var(--border) var(--border) transparent transparent;
-    transform: skewX(19deg);
-    left: 2px;
-    top: -5px;
-}
-.pumpkin .leaf .p3 {
-    height: 27px;
-    width: 18px;
-    background-color: var(--leaf-light);
-    border: solid;
-    border-radius: 0 0 50% 50%;
-    border-color: transparent transparent var(--border) var(--border);
-    border-width: 0 8px 8px 8px;
-    top: -18px;
-    left: 35px;
-    transform: rotate(-33deg) skewX(29deg);
-}
-.pumpkin .leaf .p4 {
-    height: 35px;
-    width: 24px;
-    background-color: var(--leaf-light);
-    border-radius: 50%;
-    top: -34px;
-    left: 64px;
-    transform: rotate(75deg);
-}
-.pumpkin .leaf .p4:before {
-    width: 7px;
-    height: 23px;
-    background-color: var(--border);
-    transform: rotate(1deg);
-    top: 10px;
-    left: 20px;
-}
-.pumpkin .leaf .p4:after {
-    width: 10px;
-    height: 13px;
-    border-radius: 50%;
-    border: 7px solid transparent;
-    border-color: var(--border) var(--border) transparent transparent;
-    top: -4px;
-    left: 3px;
-    transform: rotate(-25deg);
-}
-.pumpkin .leaf .p5 {
-    height: 27px;
-    width: 15px;
-    border-radius: 50% 50% 0 0;
-    background-color: var(--leaf-light);
-    border: 7px solid var(--border);
-    border-bottom-width: 0;
-    top: -61px;
-    left: 73px;
-    transform: rotate(48deg);
-}
-.pumpkin .leaf .dots {
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background-color: var(--border);
-    left: 41px;
-    top: -33px;
-    box-shadow:
-        22px -10px var(--border),
-        38px 5px var(--border);
-}
-.pumpkin .leaf .inside {
-    width: 70px;
-    height: 10px;
-    border-radius: 50%;
-    border: 6px solid transparent;
-    border-bottom-color: var(--leaf);
-    top: -37px;
-    left: 14px;
-    transform: rotate(-35deg);
-}
-.pumpkin .leaf .inside:before {
-    width: 6px;
-    height: 4px;
-    border-radius: 50%;
-    background-color: var(--leaf);
-    top: 7px;
-    left: 65px;
-}
-.pumpkin .leaf .inside:after {
-    width: 10px;
-    height: 14px;
-    border-radius: 50%;
-    border: 6px solid transparent;
-    border-left-color: var(--border);
-    left: -4px;
-    top: -4px;
 }
 
 @keyframes blink {
@@ -717,9 +389,9 @@ body {
 }
 
 .spacer-main {
-  height: 125px;
+  height: 110px;
 }
-/* ------------- HALLOWEEN 2022 EVENT (END) ------------*/
+/* ------------- CSS CAT IN CLOUD 2022 (END) ------------*/
 
 header {
   color: #ca836c;
@@ -1021,7 +693,8 @@ margin: .2em;
 .modalcontentwrapper:hover {
   border-radius: 17.5px;
       color: #1a1a1a;
-    background-color: #f7921e;
+    background-color: rgba(19, 9, 18, 0.4);
+    /*background-color: #f7921e; */
     /* DISABLED SHADOWING FOR ASTHETICS */
   /* box-shadow: 5px 13px 0px 0px #000; */  
           -webkit-transition: all .3s ease;
@@ -1061,7 +734,7 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #espmodal .header,#espmodal .footer {
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid #3e1c34;
   border-radius: 5px 5px 0 0;
     color: #ca836c;
   font-size: 1.25em;
@@ -1069,7 +742,7 @@ that some links are associated with for cleanliness of the site */
 }
 #espmodal .footer {
     border:none;
-    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid #3e1c34;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1084,7 +757,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .espmodal-content {
-  background: #5C5C5C;
+  background: #3e1c34;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1093,7 +766,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #espmodal .copy {
-  background: silver;
+  background: #602748;
 
 }
 
@@ -1109,7 +782,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #espmodal h4{
-  color: #404040;
+  color: #ca836c;
 }
 
 /* Normal styles for the modal (FlavorXL LINK) */
@@ -1135,7 +808,7 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #fxlmodal .header,#fxlmodal .footer {
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid #3e1c34;
   border-radius: 5px 5px 0 0;
     color: #ca836c;
   font-size: 1.25em;
@@ -1143,7 +816,7 @@ that some links are associated with for cleanliness of the site */
 }
 #fxlmodal .footer {
     border:none;
-    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid #3e1c34;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1158,7 +831,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .fxlmodal-content {
-  background: #5C5C5C;
+  background: #3e1c34;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1167,7 +840,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #fxlmodal .copy {
-  background: silver;
+  background: #602748;
 
 }
 
@@ -1183,7 +856,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #fxlmodal h4{
-  color: #404040;
+  color: #ca836c;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1209,7 +882,7 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #arionmodal .header,#arionmodal .footer {
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid #3e1c34;
   border-radius: 5px 5px 0 0;
     color: #ca836c;
   font-size: 1.25em;
@@ -1217,7 +890,7 @@ that some links are associated with for cleanliness of the site */
 }
 #arionmodal .footer {
     border:none;
-    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid #3e1c34;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1232,7 +905,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .arionmodal-content {
-  background: #5C5C5C;
+  background: #3e1c34;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1241,7 +914,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #arionmodal .copy {
-  background: silver;
+  background: #602748;
 
 }
 
@@ -1257,7 +930,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #arionmodal h4{
-  color: #404040;
+  color: #ca836c;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1283,7 +956,7 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #infomodal .header,#infomodal .footer {
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid #3e1c34;
   border-radius: 5px 5px 0 0;
     color: #ca836c;
   font-size: 1.25em;
@@ -1291,7 +964,7 @@ that some links are associated with for cleanliness of the site */
 }
 #infomodal .footer {
     border:none;
-    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid #3e1c34;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1306,7 +979,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .infomodal-content {
-  background: #5C5C5C;
+  background: #3e1c34;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1315,7 +988,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #infomodal .copy {
-  background: silver;
+  background: #602748;
 
 }
 
@@ -1331,7 +1004,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #infomodal h4{
-  color: #404040;
+  color: #ca836c;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1357,7 +1030,7 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #konjmodal .header,#konjmodal .footer {
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid #3e1c34;
   border-radius: 5px 5px 0 0;
     color: #ca836c;
   font-size: 1.25em;
@@ -1365,7 +1038,7 @@ that some links are associated with for cleanliness of the site */
 }
 #konjmodal .footer {
     border:none;
-    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid #3e1c34;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1380,7 +1053,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .konjmodal-content {
-  background: #5C5C5C;
+  background: #3e1c34;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1389,7 +1062,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #konjmodal .copy {
-  background: silver;
+  background: #602748;
 
 }
 
@@ -1405,7 +1078,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #konjmodal h4{
-  color: #404040;
+  color: #ca836c;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1431,7 +1104,7 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #ppcnmodal .header,#ppcnmodal .footer {
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid #3e1c34;
   border-radius: 5px 5px 0 0;
     color: #ca836c;
   font-size: 1.25em;
@@ -1439,7 +1112,7 @@ that some links are associated with for cleanliness of the site */
 }
 #ppcnmodal .footer {
     border:none;
-    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid #3e1c34;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1454,7 +1127,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .ppcnmodal-content {
-  background: #5C5C5C;
+  background: #3e1c34;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1463,7 +1136,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #ppcnmodal .copy {
-  background: silver;
+  background: #602748;
 
 }
 
@@ -1479,7 +1152,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #ppcnmodal h4{
-  color: #404040;
+  color: #ca836c;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1505,7 +1178,7 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #nftymodal .header,#nftymodal .footer {
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid #3e1c34;
   border-radius: 5px 5px 0 0;
     color: #ca836c;
   font-size: 1.25em;
@@ -1513,7 +1186,7 @@ that some links are associated with for cleanliness of the site */
 }
 #nftymodal .footer {
     border:none;
-    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid #3e1c34;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1528,7 +1201,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .nftymodal-content {
-  background: #5C5C5C;
+  background: #3e1c34;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1537,7 +1210,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #nftymodal .copy {
-  background: silver;
+  background: #602748;
 
 }
 
@@ -1553,7 +1226,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #nftymodal h4{
-  color: #404040;
+  color: #ca836c;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1579,7 +1252,7 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #ccashmodal .header,#ccashmodal .footer {
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid #3e1c34;
   border-radius: 5px 5px 0 0;
     color: #ca836c;
   font-size: 1.25em;
@@ -1587,7 +1260,7 @@ that some links are associated with for cleanliness of the site */
 }
 #ccashmodal .footer {
     border:none;
-    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid #3e1c34;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1602,7 +1275,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .ccashmodal-content {
-  background: #5C5C5C;
+  background: #3e1c34;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1611,7 +1284,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #ccashmodal .copy {
-  background: silver;
+  background: #602748;
 
 }
 
@@ -1627,7 +1300,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #ccashmodal h4{
-  color: #404040;
+  color: #ca836c;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1653,7 +1326,7 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #rnrcmodal .header,#rnrcmodal .footer {
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid #3e1c34;
   border-radius: 5px 5px 0 0;
     color: #ca836c;
   font-size: 1.25em;
@@ -1661,7 +1334,7 @@ that some links are associated with for cleanliness of the site */
 }
 #rnrcmodal .footer {
     border:none;
-    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid #3e1c34;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1676,7 +1349,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .rnrcmodal-content {
-  background: #5C5C5C;
+  background: #3e1c34;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1685,7 +1358,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #rnrcmodal .copy {
-  background: silver;
+  background: #602748;
 
 }
 
@@ -1701,7 +1374,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #rnrcmodal h4{
-  color: #404040;
+  color: #ca836c;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1727,7 +1400,7 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #insnmodal .header,#insnmodal .footer {
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid #3e1c34;
   border-radius: 5px 5px 0 0;
     color: #ca836c;
   font-size: 1.25em;
@@ -1735,7 +1408,7 @@ that some links are associated with for cleanliness of the site */
 }
 #insnmodal .footer {
     border:none;
-    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid #3e1c34;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1750,7 +1423,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .insnmodal-content {
-  background: #5C5C5C;
+  background: #3e1c34;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1759,7 +1432,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #insnmodal .copy {
-  background: silver;
+  background: #602748;
 
 }
 
@@ -1775,7 +1448,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #insnmodal h4{
-  color: #404040;
+  color: #ca836c;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1801,7 +1474,7 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #empowermodal .header,#empowermodal .footer {
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid #3e1c34;
   border-radius: 5px 5px 0 0;
     color: #ca836c;
   font-size: 1.25em;
@@ -1809,7 +1482,7 @@ that some links are associated with for cleanliness of the site */
 }
 #empowermodal .footer {
     border:none;
-    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid #3e1c34;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1824,7 +1497,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .empowermodal-content {
-  background: #5C5C5C;
+  background: #3e1c34;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1833,7 +1506,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #empowermodal .copy {
-  background: silver;
+  background: #602748;
 
 }
 
@@ -1849,7 +1522,81 @@ that some links are associated with for cleanliness of the site */
 }
 
 #empowermodal h4{
-  color: #404040;
+  color: #ca836c;
+}
+
+/* Normal styles for the modal (FROG LINK) */
+#frogmodal {
+  margin: 5px 0 0 19%;
+  opacity: 0;
+  position: relative;
+  visibility: hidden;
+  width:70%; /* IF ADJUSTMENT OF PAGE BEHIND MODAL IS OFF
+   BE SURE TO CONSULT THIS WIDTH PROPERTY AS 80% caused errors
+   and 70% corrected them */
+ z-index: 999;
+  box-sizing:border-box;
+  transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+
+}
+/* Make the modal appear when targeted */
+#frogmodal:target {
+    opacity: 1;
+    top:50%;
+    visibility: visible;
+  }
+#frogmodal .header,#frogmodal .footer {
+  border-bottom: 1px solid #3e1c34;
+  border-radius: 5px 5px 0 0;
+    color: #ca836c;
+  font-size: 1.25em;
+  font-family: Lucida Sans Unicode;
+}
+#frogmodal .footer {
+    border:none;
+    border-top: 1px solid #3e1c34;
+    border-radius: 0 0 5px 5px;
+
+  }
+#frogmodal h2 {
+  margin:0;
+}
+#frogmodal .btn {
+  float:right;
+  margin-top: -10px;
+}
+#frogmodal .copy,#frogmodal .header, #frogmodal .footer {
+  padding:15px;
+}
+.frogmodal-content {
+  background: #3e1c34;
+  position: fixed;
+  z-index: 20;
+  border-radius:5px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: -250px;
+}
+#frogmodal .copy {
+  background: #602748;
+
+}
+
+#frogmodal .overlay {
+  background-color: #000;
+  background: rgba(0,0,0,.5);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+#frogmodal h4{
+  color: #ca836c;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1875,7 +1622,7 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #docsmodal .header,#docsmodal .footer {
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid #3e1c34;
   border-radius: 5px 5px 0 0;
     color: #ca836c;
   font-size: 1.25em;
@@ -1883,7 +1630,7 @@ that some links are associated with for cleanliness of the site */
 }
 #docsmodal .footer {
     border:none;
-    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid #3e1c34;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1898,7 +1645,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .docsmodal-content {
-  background: #5C5C5C;
+  background: #3e1c34;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1907,7 +1654,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #docsmodal .copy {
-  background: silver;
+  background: #602748;
 
 }
 
@@ -1923,7 +1670,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #docsmodal h4{
-  color: #404040;
+  color: #ca836c;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1949,7 +1696,7 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #chatmodal .header,#chatmodal .footer {
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid #3e1c34;
   border-radius: 5px 5px 0 0;
     color: #ca836c;
   font-size: 1.25em;
@@ -1957,7 +1704,7 @@ that some links are associated with for cleanliness of the site */
 }
 #chatmodal .footer {
     border:none;
-    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid #3e1c34;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1972,7 +1719,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .chatmodal-content {
-  background: #5C5C5C;
+  background: #3e1c34;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1981,7 +1728,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #chatmodal .copy {
-  background: silver;
+  background: #602748;
 
 }
 
@@ -1997,7 +1744,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #chatmodal h4{
-  color: #404040;
+  color: #ca836c;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -2023,7 +1770,7 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #twittermodal .header,#twittermodal .footer {
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid #3e1c34;
   border-radius: 5px 5px 0 0;
     color: #ca836c;
   font-size: 1.25em;
@@ -2031,7 +1778,7 @@ that some links are associated with for cleanliness of the site */
 }
 #twittermodal .footer {
     border:none;
-    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid #3e1c34;
     border-radius: 0 0 5px 5px;
 
   }
@@ -2046,7 +1793,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .twittermodal-content {
-  background: #5C5C5C;
+  background: #3e1c34;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -2055,7 +1802,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #twittermodal .copy {
-  background: silver;
+  background: #602748;
 
 }
 
@@ -2071,7 +1818,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #twittermodal h4{
-  color: #404040;
+  color: #ca836c;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -2097,7 +1844,7 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #redditmodal .header,#redditmodal .footer {
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid #3e1c34;
   border-radius: 5px 5px 0 0;
     color: #ca836c;
   font-size: 1.25em;
@@ -2105,7 +1852,7 @@ that some links are associated with for cleanliness of the site */
 }
 #redditmodal .footer {
     border:none;
-    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid #3e1c34;
     border-radius: 0 0 5px 5px;
 
   }
@@ -2120,7 +1867,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .redditmodal-content {
-  background: #5C5C5C;
+  background: #3e1c34;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -2129,7 +1876,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #redditmodal .copy {
-  background: silver;
+  background: #602748;
 
 }
 
@@ -2145,5 +1892,5 @@ that some links are associated with for cleanliness of the site */
 }
 
 #redditmodal h4{
-  color: #404040;
+  color: #ca836c;
 }
