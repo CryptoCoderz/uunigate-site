@@ -1,0 +1,116 @@
+@import "compass/css3";
+
+body {
+  background-color: rgba(#2a2e39,1);
+  //@include box-sizing(border-box);
+}
+
+header {
+  color: invert(rgba(#2a2e39,1)); 
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 4em;
+  margin-top: 2em;
+  h1 {
+    border-bottom: 1px solid;
+    width: 14em;
+    margin: 0 auto;
+  }
+}
+ img {
+        width: 100%;
+  }
+
+.img-container {
+   @include display-flex; //.main-container set to flex to enable responsiveness
+   @include flex-flow (row wrap); //flex direction ltr and wrappin enabled (multiline)
+  width: 90%;
+  margin-left: 5%; //"centers" the img-container
+
+
+
+  .wrapper {
+     @include flex(1 0 24%); //flex grow, flex shrink and flex basis
+    border: 2px solid invert(rgba(#2a2e39,1));
+    height: 12vw;
+    margin: .2em;
+    overflow: hidden;
+    
+  }
+}
+
+
+.overlay {
+  position: absolute;
+    top: 0;
+    bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+    opacity: 0;
+  .cancel { //The cancel anchor-tag is the same size as the enlarged picture and by clicking the picture the href="#" takes the user to the gallery-view.
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: default;
+  }
+  &:target { //when the overlay-container is tageted(klicked), it becomes visible
+    visibility: visible;
+    opacity: 1;
+    img {
+      @include animation-name(img-transition);
+      @include animation-duration(1s);
+      @include animation-timing-function(ease-in);; //fade transition from picture to picture
+  }
+  }
+}
+
+.popup {
+    background: rgba(0,0,0,.9);
+    width: 100%;
+  height: 100%;
+    position: relative;
+  .left,
+  .right {
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    opacity: 0.9;
+    font-size: 56px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    &:hover {
+      opacity: 1;
+      font-weight: bold;
+    }
+  }
+  .left {
+    top: 40%;
+    left: 5%;
+  }
+  .right {
+    top: 40%;
+    right: 5%;
+  }
+  .content {
+    background-color: black;
+    width: 70%;
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+    position: relative;
+     top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
+@include keyframes(img-transition) {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
