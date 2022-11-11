@@ -4,10 +4,7 @@
 }
 
 body {
-  background: rgb(42,46,57);
-  background: -moz-linear-gradient(128deg, rgba(42,46,57,1) 0%, rgba(51,56,70,1) 36%, rgba(42,46,57,1) 100%) no-repeat center center fixed;
-  background: -webkit-linear-gradient(128deg, rgba(42,46,57,1) 0%, rgba(51,56,70,1) 36%, rgba(42,46,57,1) 100%) no-repeat center center fixed;
-  background: linear-gradient(128deg, rgba(42,46,57,1) 0%, rgba(51,56,70,1) 36%, rgba(42,46,57,1) 100%) no-repeat center center fixed;
+  background: #5A391E;
   overflow: hidden;
   font-family: 'Roboto Condensed', sans-serif;
 }

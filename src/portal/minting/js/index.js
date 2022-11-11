@@ -27,14 +27,23 @@ function createCaptcha() {
 
 // Smooth fade-in logic
 $(document).ready(function() {
-    if($(".login").is(":visible")) {
-        $(".login").css({"opacity":"0"});
-    }
+    // Cat loading logic
+    setTimeout(function() {
+    $(".box").animate({
+      'opacity': '0'
+      }, 700);
+    }, 1500);
+    setTimeout(function() {
+    $(".box").css({
+      'display': 'none'
+      });
+    }, 2000);
+    // Fade in form after loading logic (fixes hiccup in view)
     setTimeout(function() {
       $(".login").animate({
           'opacity': '1'
       }, 700);
-    }, 300);
+    }, 2500);
 });
 
 
