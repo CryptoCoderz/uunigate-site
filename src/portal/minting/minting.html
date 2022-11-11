@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>UUNIGATE | NFT-Minting</title>
+    <link rel='stylesheet' href='css/font-googleapis-nunito.css' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body onload="createCaptcha()">
+    <div class='login'>
+      <div class='login_inner'>
+        <div class='login_inner__avatar'>
+        </div>
+        <input id='discordid' placeholder='Your Discord ID' type='password'>
+        <input id='mintpin' placeholder='Your minting PIN' type='password'>
+        <input id='nftid' placeholder='Choose a NFT ID' type='text'>
+        <input id='nftalias' placeholder='Choose a NFT Alias/Name' type='text'>
+        <input id='nftnet' placeholder='Choose network (coin ticker)' type='text'>
+        <input id='nftdesc' placeholder='NFT Description/Details' type='text'>
+        <input id='nftimgurl' placeholder='NFT image URL/Link' type='text'>
+        <div id="captcha">
+        </div>
+        <input type="text" placeholder="Solve this Captcha" id="cpatchaTextBox"/>
+        <input type='submit' value='Mint NFT'>
+        <input type='submit2' value='Need help?'>
+      </div>
+      <div class='login_inner__check'>
+        <div class='login_inner__check--complete'>
+          <i class='fa fa-check'></i>
+        </div>
+      </div>
+    </div>
+    <div class='loggedin'>
+      <a href="mint_success.html"><h2></h2></a>
+    </div>
+    <script src='js/jquery.min.js'>
+    </script>
+    <script src="js/index.js">
+    </script>
+  </body>
+</html>
