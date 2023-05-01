@@ -4,7 +4,7 @@ html {
 
 body {
   overflow: hidden;
-  background: #5A391E;
+  background: #9B94BE;
   background-size: cover;
   position: fixed;
   padding: 0px;
@@ -19,7 +19,7 @@ body:before {
   content: "";
   height: 0px;
   padding: 0px;
-  border: 130em solid #5A391E;
+  border: 130em solid #9B94BE;
   position: absolute;
   left: 50%;
   top: 100%;
@@ -56,7 +56,7 @@ a {
 }
 
 .profile-card {
-  background: #855a38;
+  background: #766ca8;
   width: 56px;
   height: 56px;
   position: absolute;
@@ -83,7 +83,7 @@ a {
   display: inline-block;
   float: left;
   border-right: 2px dashed #EEEEEE;
-  background: #855a38;
+  background: #766ca8;
   color: #d6d6d6;
   margin-top: 50px;
   opacity: 0;
@@ -147,7 +147,7 @@ a {
   display: inline-block;
   float: right;
   padding: 50px 20px 30px 20px;
-  background: #855a38;
+  background: #766ca8;
   color: #d6d6d6;
   margin-top: 50px;
   text-align: center;
@@ -162,7 +162,7 @@ a {
   float: right;
   margin: 0px;
   padding: 15px 20px;
-  background: #855a38;
+  background: #766ca8;
   margin-top: 50px;
   text-align: center;
   opacity: 0;
@@ -299,7 +299,7 @@ a {
 
 @-webkit-keyframes moveUp {
   0% {
-    background: #855a38;
+    background: #766ca8;
     top: 100%;
   }
   50% {
@@ -307,13 +307,13 @@ a {
   }
   100% {
     top: 50%;
-    background: #855a38;
+    background: #766ca8;
   }
 }
 
 @keyframes moveUp {
   0% {
-    background: #855a38;
+    background: #766ca8;
     top: 100%;
   }
   50% {
@@ -321,13 +321,13 @@ a {
   }
   100% {
     top: 50%;
-    background: #855a38;
+    background: #766ca8;
   }
 }
 
 @-webkit-keyframes materia {
   0% {
-    background: #855a38;
+    background: #766ca8;
   }
   50% {
     -webkit-border-radius: 4px;
@@ -335,14 +335,14 @@ a {
   100% {
     width: 25%;
     height: 80%;
-    background: #855a38;
+    background: #766ca8;
     -webkit-border-radius: 4px;
   }
 }
 
 @keyframes materia {
   0% {
-    background: #855a38;
+    background: #766ca8;
   }
   50% {
     border-radius: 4px;
@@ -350,7 +350,7 @@ a {
   100% {
     width: 25%;
     height: 80%;
-    background: #855a38;
+    background: #766ca8;
     border-radius: 4px;
   }
 }
@@ -477,7 +477,7 @@ a {
   }
   @ -webkit-keyframes materia {
     0% {
-      background: #855a38;
+      background: #766ca8;
     }
     50% {
       -webkit-border-radius: 4px;
@@ -485,13 +485,13 @@ a {
     100% {
       width: 25%;
       height: 80%;
-      background: #855a38;
+      background: #766ca8;
       -webkit-border-radius: 4px;
     }
   }
   @keyframes materia {
     0% {
-      background: #855a38;
+      background: #766ca8;
     }
     50% {
       border-radius: 4px;
@@ -499,7 +499,7 @@ a {
     100% {
       width: 25%;
       height: 80%;
-      background: #855a38;
+      background: #766ca8;
       border-radius: 4px;
     }
   }

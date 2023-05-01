@@ -2,12 +2,12 @@
 Theme name: Origin
 Original Author: CryptoCoderz aka Jonathan Dan Zaretsky
 Current Author: CryptoCoderz aka Jonathan Dan Zaretsky
-Version: 1.5
+Version: 1.6
 Created: 7/21/2014, 21:19:11 PM GMT-7:00 DST
-Last change: 11/03/2022, 3:52:09 PM GMT-7:00 DST
+Last change: 30/04/2023, 6:48:31 PM GMT-7:00 DST
 -------------- */
 body {
-  background-color: #5A391E;
+  background-color: #766ca8;
   z-index: 1;
 
   /* ------------- CSS CAT IN CLOUD 2022 ------------*/
@@ -554,7 +554,7 @@ body {
 /* ------------- CSS CAT IN CLOUD 2022 (END) ------------*/
 
 header {
-  color: #d6a86b;
+  color: #FDB4C1;
   font-size: 1.5em;
   font-family: Lucida Sans Unicode;
   text-align: center;
@@ -579,7 +579,7 @@ img {
 /* IMportant float controls here as well for NAV */
 a {
   font-size: 13px;
-  color: #d6a86b;
+  color: #FDB4C1;
   font-family: Verdana;
   padding: 15px 9px 15px 9px;/* this is the 9px compensated for previously */
 }
@@ -600,7 +600,7 @@ li {
 
 .navlist ul li a:hover {
     color: #1a1a1a;
-    background-color: #F9F1D9;
+    background-color: #C5EBD5;
     padding-left: ;
     padding-right:;
     border-radius: 10px;
@@ -634,7 +634,7 @@ li {
 
 .navlist {
   font-size: 13px;
-  color: #F9F1D9;
+  color: #C5EBD5;
   text-align: center;
   margin-bottom: auto;
   margin-top: -6.4em;
@@ -643,14 +643,14 @@ li {
 }
 
 .bottomborder {
-   color: #d6a86b;
+   color: #FDB4C1;
    border-bottom: 1px solid;
 }
 /* Category border, maybe not best practice but handy in this application
 This provides the category "border" that is a bright color and easily 
 recognizable seperation */
 .catborder {
-     color: #F9F1D9;
+     color: #C5EBD5;
    border-bottom: 4px solid;
    width: 350px;
    margin-top: -90px;
@@ -675,7 +675,7 @@ recognizable seperation */
 .gool-container .goolwrapper {
   -webkit-flex: 50% 0 50%;
   flex: 50% 0 50%;
-   border: 2px solid #d6a86b; 
+   border: 2px solid #FDB4C1; 
   border: none;
   /* height: 24vw; ------- REMOVED TO ALLOW FOR ICON OVERFLOW ------ */
   width: 100%; 
@@ -693,7 +693,7 @@ recognizable seperation */
 }
 
 #search {
-  color: #d6a86b;  
+  color: #FDB4C1;  
   margin-left: 2%;
   text-align: center;
   font-size: 1.2em;
@@ -705,7 +705,7 @@ recognizable seperation */
 }
 /* ######## RE-INSTATED FOR ALIGNMENT PROPERTIES ###### */
 #searchborder {
-  color: #d6a86b;
+  color: #FDB4C1;
   margin-left: 35%;
   margin-top: -25px;
   text-align: center;
@@ -734,7 +734,7 @@ color:#009925;
 as none of the sections are individual pages the NAV "jumps" the user down to
 the desired section */
 #adminlinks {
-  color: #d6a86b;
+  color: #FDB4C1;
   font-size: 1.5em;
   font-family: Lucida Sans Unicode;
   text-align: center;
@@ -742,7 +742,7 @@ the desired section */
 }
 
 #emprelinks {
-  color: #d6a86b;
+  color: #FDB4C1;
   font-size: 1.5em;
   font-family: Lucida Sans Unicode;
   text-align: center;
@@ -750,7 +750,7 @@ the desired section */
 }
 
 #supportlinks {
-  color: #d6a86b;
+  color: #FDB4C1;
   font-size: 1.5em;
   font-family: Lucida Sans Unicode;
   text-align: center;
@@ -758,7 +758,7 @@ the desired section */
 }
 
 #clinaplinks {
-  color: #d6a86b;
+  color: #FDB4C1;
   font-size: 1.5em;
   font-family: Lucida Sans Unicode;
   text-align: center;
@@ -783,7 +783,7 @@ browsers as of 01/15/2016 */
 }
 .img-container .wrapper {
 
-  /* border: 2px solid #d6a86b; */
+  /* border: 2px solid #FDB4C1; */
   border: none;
   height: 6em; /* changed from "vw" so as to resolve the infinite scaling down */
   width: 6em; 
@@ -804,7 +804,7 @@ margin: .2em;
 .wrapper:hover {
   border-radius: 17.5px;
       color: #1a1a1a;
-    background-color: #F9F1D9;
+    background-color: #C5EBD5;
     /* DISABLED SHADOWING FOR ASTHETICS */
   /* box-shadow: 5px 13px 0px 0px #000; */  
           -webkit-transition: all .3s ease;
@@ -832,7 +832,7 @@ browsers as of 02/10/2016 */
 
 .modalimg-container .modalcontentwrapper {
 
-  /* border: 2px solid #d6a86b; */
+  /* border: 2px solid #FDB4C1; */
   border: none;
   height: 6em; /* changed from "vw" so as to resolve the infinite scaling down */
   width: 6em; 
@@ -853,8 +853,8 @@ margin: .2em;
 .modalcontentwrapper:hover {
   border-radius: 17.5px;
       color: #1a1a1a;
-    background-color: rgba(90, 57, 30, 0.7);
-    /*background-color: #F9F1D9; */
+    background-color: #766ca8;
+    /*background-color: #C5EBD5; */
     /* DISABLED SHADOWING FOR ASTHETICS */
   /* box-shadow: 5px 13px 0px 0px #000; */  
           -webkit-transition: all .3s ease;
@@ -894,15 +894,15 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #espmodal .header,#espmodal .footer {
-  border-bottom: 1px solid #5A391E;
+  border-bottom: 1px solid #766ca8;
   border-radius: 5px 5px 0 0;
-    color: #d6a86b;
+    color: #FDB4C1;
   font-size: 1.25em;
   font-family: Lucida Sans Unicode;
 }
 #espmodal .footer {
     border:none;
-    border-top: 1px solid #5A391E;
+    border-top: 1px solid #766ca8;
     border-radius: 0 0 5px 5px;
 
   }
@@ -917,7 +917,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .espmodal-content {
-  background: #5A391E;
+  background: #766ca8;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -926,7 +926,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #espmodal .copy {
-  background: #735630;
+  background: #9B94BE;
 
 }
 
@@ -942,7 +942,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #espmodal h4{
-  color: #d6a86b;
+  color: #FDB4C1;
 }
 
 /* Normal styles for the modal (FlavorXL LINK) */
@@ -968,15 +968,15 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #fxlmodal .header,#fxlmodal .footer {
-  border-bottom: 1px solid #5A391E;
+  border-bottom: 1px solid #766ca8;
   border-radius: 5px 5px 0 0;
-    color: #d6a86b;
+    color: #FDB4C1;
   font-size: 1.25em;
   font-family: Lucida Sans Unicode;
 }
 #fxlmodal .footer {
     border:none;
-    border-top: 1px solid #5A391E;
+    border-top: 1px solid #766ca8;
     border-radius: 0 0 5px 5px;
 
   }
@@ -991,7 +991,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .fxlmodal-content {
-  background: #5A391E;
+  background: #766ca8;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1000,7 +1000,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #fxlmodal .copy {
-  background: #735630;
+  background: #9B94BE;
 
 }
 
@@ -1016,7 +1016,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #fxlmodal h4{
-  color: #d6a86b;
+  color: #FDB4C1;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1042,15 +1042,15 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #arionmodal .header,#arionmodal .footer {
-  border-bottom: 1px solid #5A391E;
+  border-bottom: 1px solid #766ca8;
   border-radius: 5px 5px 0 0;
-    color: #d6a86b;
+    color: #FDB4C1;
   font-size: 1.25em;
   font-family: Lucida Sans Unicode;
 }
 #arionmodal .footer {
     border:none;
-    border-top: 1px solid #5A391E;
+    border-top: 1px solid #766ca8;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1065,7 +1065,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .arionmodal-content {
-  background: #5A391E;
+  background: #766ca8;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1074,7 +1074,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #arionmodal .copy {
-  background: #735630;
+  background: #9B94BE;
 
 }
 
@@ -1090,7 +1090,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #arionmodal h4{
-  color: #d6a86b;
+  color: #FDB4C1;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1116,15 +1116,15 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #infomodal .header,#infomodal .footer {
-  border-bottom: 1px solid #5A391E;
+  border-bottom: 1px solid #766ca8;
   border-radius: 5px 5px 0 0;
-    color: #d6a86b;
+    color: #FDB4C1;
   font-size: 1.25em;
   font-family: Lucida Sans Unicode;
 }
 #infomodal .footer {
     border:none;
-    border-top: 1px solid #5A391E;
+    border-top: 1px solid #766ca8;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1139,7 +1139,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .infomodal-content {
-  background: #5A391E;
+  background: #766ca8;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1148,7 +1148,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #infomodal .copy {
-  background: #735630;
+  background: #9B94BE;
 
 }
 
@@ -1164,7 +1164,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #infomodal h4{
-  color: #d6a86b;
+  color: #FDB4C1;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1190,15 +1190,15 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #konjmodal .header,#konjmodal .footer {
-  border-bottom: 1px solid #5A391E;
+  border-bottom: 1px solid #766ca8;
   border-radius: 5px 5px 0 0;
-    color: #d6a86b;
+    color: #FDB4C1;
   font-size: 1.25em;
   font-family: Lucida Sans Unicode;
 }
 #konjmodal .footer {
     border:none;
-    border-top: 1px solid #5A391E;
+    border-top: 1px solid #766ca8;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1213,7 +1213,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .konjmodal-content {
-  background: #5A391E;
+  background: #766ca8;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1222,7 +1222,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #konjmodal .copy {
-  background: #735630;
+  background: #9B94BE;
 
 }
 
@@ -1238,7 +1238,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #konjmodal h4{
-  color: #d6a86b;
+  color: #FDB4C1;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1264,15 +1264,15 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #ppcnmodal .header,#ppcnmodal .footer {
-  border-bottom: 1px solid #5A391E;
+  border-bottom: 1px solid #766ca8;
   border-radius: 5px 5px 0 0;
-    color: #d6a86b;
+    color: #FDB4C1;
   font-size: 1.25em;
   font-family: Lucida Sans Unicode;
 }
 #ppcnmodal .footer {
     border:none;
-    border-top: 1px solid #5A391E;
+    border-top: 1px solid #766ca8;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1287,7 +1287,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .ppcnmodal-content {
-  background: #5A391E;
+  background: #766ca8;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1296,7 +1296,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #ppcnmodal .copy {
-  background: #735630;
+  background: #9B94BE;
 
 }
 
@@ -1312,7 +1312,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #ppcnmodal h4{
-  color: #d6a86b;
+  color: #FDB4C1;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1338,15 +1338,15 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #nftymodal .header,#nftymodal .footer {
-  border-bottom: 1px solid #5A391E;
+  border-bottom: 1px solid #766ca8;
   border-radius: 5px 5px 0 0;
-    color: #d6a86b;
+    color: #FDB4C1;
   font-size: 1.25em;
   font-family: Lucida Sans Unicode;
 }
 #nftymodal .footer {
     border:none;
-    border-top: 1px solid #5A391E;
+    border-top: 1px solid #766ca8;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1361,7 +1361,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .nftymodal-content {
-  background: #5A391E;
+  background: #766ca8;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1370,7 +1370,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #nftymodal .copy {
-  background: #735630;
+  background: #9B94BE;
 
 }
 
@@ -1386,7 +1386,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #nftymodal h4{
-  color: #d6a86b;
+  color: #FDB4C1;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1412,15 +1412,15 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #ccashmodal .header,#ccashmodal .footer {
-  border-bottom: 1px solid #5A391E;
+  border-bottom: 1px solid #766ca8;
   border-radius: 5px 5px 0 0;
-    color: #d6a86b;
+    color: #FDB4C1;
   font-size: 1.25em;
   font-family: Lucida Sans Unicode;
 }
 #ccashmodal .footer {
     border:none;
-    border-top: 1px solid #5A391E;
+    border-top: 1px solid #766ca8;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1435,7 +1435,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .ccashmodal-content {
-  background: #5A391E;
+  background: #766ca8;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1444,7 +1444,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #ccashmodal .copy {
-  background: #735630;
+  background: #9B94BE;
 
 }
 
@@ -1460,7 +1460,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #ccashmodal h4{
-  color: #d6a86b;
+  color: #FDB4C1;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1486,15 +1486,15 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #rnrcmodal .header,#rnrcmodal .footer {
-  border-bottom: 1px solid #5A391E;
+  border-bottom: 1px solid #766ca8;
   border-radius: 5px 5px 0 0;
-    color: #d6a86b;
+    color: #FDB4C1;
   font-size: 1.25em;
   font-family: Lucida Sans Unicode;
 }
 #rnrcmodal .footer {
     border:none;
-    border-top: 1px solid #5A391E;
+    border-top: 1px solid #766ca8;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1509,7 +1509,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .rnrcmodal-content {
-  background: #5A391E;
+  background: #766ca8;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1518,7 +1518,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #rnrcmodal .copy {
-  background: #735630;
+  background: #9B94BE;
 
 }
 
@@ -1534,7 +1534,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #rnrcmodal h4{
-  color: #d6a86b;
+  color: #FDB4C1;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1560,15 +1560,15 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #insnmodal .header,#insnmodal .footer {
-  border-bottom: 1px solid #5A391E;
+  border-bottom: 1px solid #766ca8;
   border-radius: 5px 5px 0 0;
-    color: #d6a86b;
+    color: #FDB4C1;
   font-size: 1.25em;
   font-family: Lucida Sans Unicode;
 }
 #insnmodal .footer {
     border:none;
-    border-top: 1px solid #5A391E;
+    border-top: 1px solid #766ca8;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1583,7 +1583,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .insnmodal-content {
-  background: #5A391E;
+  background: #766ca8;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1592,7 +1592,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #insnmodal .copy {
-  background: #735630;
+  background: #9B94BE;
 
 }
 
@@ -1608,7 +1608,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #insnmodal h4{
-  color: #d6a86b;
+  color: #FDB4C1;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1634,15 +1634,15 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #empowermodal .header,#empowermodal .footer {
-  border-bottom: 1px solid #5A391E;
+  border-bottom: 1px solid #766ca8;
   border-radius: 5px 5px 0 0;
-    color: #d6a86b;
+    color: #FDB4C1;
   font-size: 1.25em;
   font-family: Lucida Sans Unicode;
 }
 #empowermodal .footer {
     border:none;
-    border-top: 1px solid #5A391E;
+    border-top: 1px solid #766ca8;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1657,7 +1657,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .empowermodal-content {
-  background: #5A391E;
+  background: #766ca8;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1666,7 +1666,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #empowermodal .copy {
-  background: #735630;
+  background: #9B94BE;
 
 }
 
@@ -1682,7 +1682,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #empowermodal h4{
-  color: #d6a86b;
+  color: #FDB4C1;
 }
 
 /* Normal styles for the modal (FROG LINK) */
@@ -1708,15 +1708,15 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #frogmodal .header,#frogmodal .footer {
-  border-bottom: 1px solid #5A391E;
+  border-bottom: 1px solid #766ca8;
   border-radius: 5px 5px 0 0;
-    color: #d6a86b;
+    color: #FDB4C1;
   font-size: 1.25em;
   font-family: Lucida Sans Unicode;
 }
 #frogmodal .footer {
     border:none;
-    border-top: 1px solid #5A391E;
+    border-top: 1px solid #766ca8;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1731,7 +1731,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .frogmodal-content {
-  background: #5A391E;
+  background: #766ca8;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1740,7 +1740,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #frogmodal .copy {
-  background: #735630;
+  background: #9B94BE;
 
 }
 
@@ -1756,7 +1756,81 @@ that some links are associated with for cleanliness of the site */
 }
 
 #frogmodal h4{
-  color: #d6a86b;
+  color: #FDB4C1;
+}
+
+/* Normal styles for the modal (DIMI LINK) */
+#dimimodal {
+  margin: 5px 0 0 19%;
+  opacity: 0;
+  position: relative;
+  visibility: hidden;
+  width:70%; /* IF ADJUSTMENT OF PAGE BEHIND MODAL IS OFF
+   BE SURE TO CONSULT THIS WIDTH PROPERTY AS 80% caused errors
+   and 70% corrected them */
+ z-index: 999;
+  box-sizing:border-box;
+  transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+
+}
+/* Make the modal appear when targeted */
+#dimimodal:target {
+    opacity: 1;
+    top:50%;
+    visibility: visible;
+  }
+#dimimodal .header,#dimimodal .footer {
+  border-bottom: 1px solid #766ca8;
+  border-radius: 5px 5px 0 0;
+    color: #FDB4C1;
+  font-size: 1.25em;
+  font-family: Lucida Sans Unicode;
+}
+#dimimodal .footer {
+    border:none;
+    border-top: 1px solid #766ca8;
+    border-radius: 0 0 5px 5px;
+
+  }
+#dimimodal h2 {
+  margin:0;
+}
+#dimimodal .btn {
+  float:right;
+  margin-top: -10px;
+}
+#dimimodal .copy,#dimimodal .header, #dimimodal .footer {
+  padding:15px;
+}
+.dimimodal-content {
+  background: #766ca8;
+  position: fixed;
+  z-index: 20;
+  border-radius:5px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: -250px;
+}
+#dimimodal .copy {
+  background: #9B94BE;
+
+}
+
+#dimimodal .overlay {
+  background-color: #000;
+  background: rgba(0,0,0,.5);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+#dimimodal h4{
+  color: #FDB4C1;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1782,15 +1856,15 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #docsmodal .header,#docsmodal .footer {
-  border-bottom: 1px solid #5A391E;
+  border-bottom: 1px solid #766ca8;
   border-radius: 5px 5px 0 0;
-    color: #d6a86b;
+    color: #FDB4C1;
   font-size: 1.25em;
   font-family: Lucida Sans Unicode;
 }
 #docsmodal .footer {
     border:none;
-    border-top: 1px solid #5A391E;
+    border-top: 1px solid #766ca8;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1805,7 +1879,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .docsmodal-content {
-  background: #5A391E;
+  background: #766ca8;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1814,7 +1888,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #docsmodal .copy {
-  background: #735630;
+  background: #9B94BE;
 
 }
 
@@ -1830,7 +1904,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #docsmodal h4{
-  color: #d6a86b;
+  color: #FDB4C1;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1856,15 +1930,15 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #chatmodal .header,#chatmodal .footer {
-  border-bottom: 1px solid #5A391E;
+  border-bottom: 1px solid #766ca8;
   border-radius: 5px 5px 0 0;
-    color: #d6a86b;
+    color: #FDB4C1;
   font-size: 1.25em;
   font-family: Lucida Sans Unicode;
 }
 #chatmodal .footer {
     border:none;
-    border-top: 1px solid #5A391E;
+    border-top: 1px solid #766ca8;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1879,7 +1953,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .chatmodal-content {
-  background: #5A391E;
+  background: #766ca8;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1888,7 +1962,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #chatmodal .copy {
-  background: #735630;
+  background: #9B94BE;
 
 }
 
@@ -1904,7 +1978,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #chatmodal h4{
-  color: #d6a86b;
+  color: #FDB4C1;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -1930,15 +2004,15 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #twittermodal .header,#twittermodal .footer {
-  border-bottom: 1px solid #5A391E;
+  border-bottom: 1px solid #766ca8;
   border-radius: 5px 5px 0 0;
-    color: #d6a86b;
+    color: #FDB4C1;
   font-size: 1.25em;
   font-family: Lucida Sans Unicode;
 }
 #twittermodal .footer {
     border:none;
-    border-top: 1px solid #5A391E;
+    border-top: 1px solid #766ca8;
     border-radius: 0 0 5px 5px;
 
   }
@@ -1953,7 +2027,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .twittermodal-content {
-  background: #5A391E;
+  background: #766ca8;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -1962,7 +2036,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #twittermodal .copy {
-  background: #735630;
+  background: #9B94BE;
 
 }
 
@@ -1978,7 +2052,7 @@ that some links are associated with for cleanliness of the site */
 }
 
 #twittermodal h4{
-  color: #d6a86b;
+  color: #FDB4C1;
 }
 
 /* Normal styles for the modal (ESP LINK) */
@@ -2004,15 +2078,15 @@ that some links are associated with for cleanliness of the site */
     visibility: visible;
   }
 #redditmodal .header,#redditmodal .footer {
-  border-bottom: 1px solid #5A391E;
+  border-bottom: 1px solid #766ca8;
   border-radius: 5px 5px 0 0;
-    color: #d6a86b;
+    color: #FDB4C1;
   font-size: 1.25em;
   font-family: Lucida Sans Unicode;
 }
 #redditmodal .footer {
     border:none;
-    border-top: 1px solid #5A391E;
+    border-top: 1px solid #766ca8;
     border-radius: 0 0 5px 5px;
 
   }
@@ -2027,7 +2101,7 @@ that some links are associated with for cleanliness of the site */
   padding:15px;
 }
 .redditmodal-content {
-  background: #5A391E;
+  background: #766ca8;
   position: fixed;
   z-index: 20;
   border-radius:5px;
@@ -2036,7 +2110,7 @@ that some links are associated with for cleanliness of the site */
   margin-top: -250px;
 }
 #redditmodal .copy {
-  background: #735630;
+  background: #9B94BE;
 
 }
 
@@ -2052,5 +2126,5 @@ that some links are associated with for cleanliness of the site */
 }
 
 #redditmodal h4{
-  color: #d6a86b;
+  color: #FDB4C1;
 }
