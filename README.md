@@ -1,4 +1,4 @@
-UUNIGATE - Fractal Multi-chain Platform Gateway - (C) 2021-2023
+UUNIGATE - Fractal Multi-chain Platform Gateway - 2021-2024
 ===========================================================================================
 
 ### Live Site:
