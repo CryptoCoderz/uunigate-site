@@ -16,7 +16,7 @@ What is UUNIGATE Gateway?
 -----------------------------------------
 
 ### Overview
-UUNIGATE offers a unique experience by intuitively bringing altcoins/blockchain technologies and their communities together in an almot native layer solution. This is apposed to the typical systems seen in use today which require many steps and convoluted processes to conduct what should be a simple data transfer. To solve this several blockchain technologies have banded together to natively integrate smart-contracts and other advanced functionality together across multiple networks and chains.
+UUNIGATE offers a unique experience by intuitively bringing altcoins/blockchain technologies and their communities together in an almost native layer solution. This is apposed to the typical systems seen in use today which require many steps and convoluted processes to conduct what should be a simple data transfer. To solve this several blockchain technologies have banded together to natively integrate smart-contracts and other advanced functionality together across multiple networks and chains.
 
 ### NFT (Non-fungible Token)
 The UUNIGATE platform offers extensive support for all current open source blockchain projects that use the "Fractal Multi-chain Platform" module in their codebase. This allows users of any listed project of the website to send, receive, create and manage your NFTs and other smart-contracts all from one place online rather than having to download or install any software on a computer. Geared for users on-the-go and more mobile based solutions this is NOT A REPLACEMENT FOR A SOFTWARE CLIENT of the respective blockchains. You should always store your data with each respective blockchain's software client.
