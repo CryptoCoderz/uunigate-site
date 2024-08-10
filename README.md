@@ -8,7 +8,7 @@ UUNIGATE - Fractal Multi-chain Platform Gateway - 2021-2024
 *  [UUNIGATE Discord](https://discord.gg/354Vy4W5JX)
 
 ### Twitter:
-*  [UUNIGATE Twitter](https://twitter.com/uunigate)
+*  [UUNIGATE Twitter](https://x.com/uunigate)
 
 
 
